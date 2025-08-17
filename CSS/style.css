@@ -227,3 +227,34 @@ body {
   font-weight: 700;
   color: #cf711f;
 }
+
+/*****************************/
+/* HOW IT WORKS SECTION*/
+/*****************************/
+
+.section-how {
+}
+
+.section-how div {
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--col-2 {
+  grid-template-columns: rpeat(2, 1fr);
+}
+
+.grid--col-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* To center items */
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
