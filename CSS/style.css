@@ -14,7 +14,7 @@
       
     ----COLORS
     -Main: #e67e22
-    -Tints: #fae5d3
+    -Tints: #fae5d3, #cf711f
     -Accents
     -Grey: #555, #333,
 
@@ -82,7 +82,7 @@ body {
 .btn:visited {
   font-size: 2rem;
   text-decoration: none;
-
+  cursor: pointer;
   border-radius: 9px;
   padding: 1.6rem 3.2rem;
 }
@@ -97,6 +97,18 @@ body {
 .btn--outline:visited {
   background-color: #fff;
   color: #555;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #cf711f;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #fae5d3;
+  /* To add padding inside the botton */
+  box-shadow: inset 0 0 0 3px #fff;
 }
 
 .hero-img {
