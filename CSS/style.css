@@ -13,8 +13,8 @@
       10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
       
     ----COLORS
-    -Main
-    -Tints
+    -Main: #e67e22
+    -Tints: #fae5d3
     -Accents
     -Grey: #555, #333,
 
@@ -49,6 +49,10 @@ body {
   color: #555;
 }
 
+.section-hero {
+  background-color: #fae5d3;
+}
+
 .hero {
   max-width: 130rem;
   margin: 0 auto;
@@ -67,7 +71,7 @@ body {
   color: #333;
   margin-bottom: 3.2rem;
   line-height: 1.05;
-  letter-spacing: 0.1px;
+  letter-spacing: -0.5px;
 }
 
 .hero-description {
