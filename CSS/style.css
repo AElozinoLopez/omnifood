@@ -129,6 +129,9 @@ body {
 
 .delivered-imgs {
   display: flex;
+}
+
+.delivered-imgs img {
   height: 4.8rem;
   /* Adding width fix the bug in firefox */
   width: 4.8rem;
