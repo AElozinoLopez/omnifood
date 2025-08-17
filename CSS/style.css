@@ -3,10 +3,16 @@
    
     ----TYPOGRAPHY
       
-      -LINE HEIGHT: 1
+      -LINE HEIGHT: 
+      Defaut 1
+      small: 1.05
+      paragraph default: 1.6
 
       FONT-WEIGHT: 
       -Default: 400
+      medium: 500
+      semi-bold: 600
+      bold: 700
 
       -FONT SIZE SYSTEM (px)
       -Default 10px 
@@ -25,6 +31,7 @@
     ----SHADOWS
 
     ----BORDER-RADIUS
+    Default: 9px
 
     ----WHITESPACE
     Spacing system(px): 
@@ -125,6 +132,7 @@ body {
 .main-nav-list {
   list-style: none;
   display: flex;
+  align-items: center;
   gap: 3.2rem;
 }
 
