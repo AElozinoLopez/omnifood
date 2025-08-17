@@ -107,6 +107,12 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color: #fae5d3;
+
+  /* The height is needed to make the header sticky */
+  height: 9.6rem;
+  padding: 0 4.8rem;
 }
 
 .logo {
