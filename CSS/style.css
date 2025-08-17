@@ -63,10 +63,6 @@ body {
   gap: 9.6rem;
 }
 
-.hero-img {
-  width: 100%;
-}
-
 .heading-primary {
   font-size: 5.2rem;
   font-weight: 700;
@@ -80,4 +76,29 @@ body {
   font-size: 2rem;
   line-height: 1.6;
   margin-bottom: 4.8rem;
+}
+
+.btn:link,
+.btn:visited {
+  font-size: 2rem;
+  text-decoration: none;
+
+  border-radius: 9px;
+  padding: 1.6rem 3.2rem;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.hero-img {
+  width: 100%;
 }
