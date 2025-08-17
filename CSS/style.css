@@ -85,6 +85,8 @@ body {
   cursor: pointer;
   border-radius: 9px;
   padding: 1.6rem 3.2rem;
+
+  transition: background-color 0.3s;
 }
 
 .btn--full:link,
@@ -113,4 +115,8 @@ body {
 
 .hero-img {
   width: 100%;
+}
+
+.margin-right-sm {
+  margin-right: 1.6rem;
 }
