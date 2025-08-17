@@ -1,7 +1,45 @@
+/* 
+  
+   
+    ----TYPOGRAPHY
+      
+      -LINE HEIGHT: 1
+
+      FONT-WEIGHT: 
+      -Default: 400
+
+      -FONT SIZE SYSTEM (px)
+      -Default 10px 
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      
+    ----COLORS
+    -Main
+    -Tints
+    -Accents
+    -Grey: #555, 
+
+    ----IMAGE SOURCES
+    -unspash for images
+    -ui faces for testimonials
+
+    ----SHADOWS
+
+    ----BORDER-RADIUS
+
+    ----WHITESPACE
+    Spacing system(px): 
+    2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 body {
