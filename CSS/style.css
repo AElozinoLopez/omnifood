@@ -16,7 +16,7 @@
     -Main
     -Tints
     -Accents
-    -Grey: #555, 
+    -Grey: #555, #333,
 
     ----IMAGE SOURCES
     -unspash for images
@@ -58,4 +58,19 @@ body {
 
 .hero-img {
   width: 100%;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 3.2rem;
+  line-height: 1.05;
+  letter-spacing: 0.1px;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
 }
