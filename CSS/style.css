@@ -258,9 +258,9 @@ body {
 /*****************************/
 
 .section-how {
-  background-color: orangered;
   padding: 9.6rem 0;
 }
 
-.section-how div div {
+.step-img {
+  height: 50%;
 }
