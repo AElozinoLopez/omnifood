@@ -65,7 +65,7 @@ body {
 }
 
 .grid--2-cols {
-  grid-template-columns: rpeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .grid--3-cols {
