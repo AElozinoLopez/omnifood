@@ -139,9 +139,29 @@
 }
 
 .step-img-box {
+  position: relative;
+
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.step-img-box::before {
+  content: "";
+  display: block;
+  width: 60%;
+
+  padding-bottom: 60%;
+
+  background-color: #fdf2e9;
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+
+  /* This block of code doesn't seem necessary */
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
 }
 
 .step-img {
