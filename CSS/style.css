@@ -122,7 +122,7 @@
 /* FEATURED IN SECTION*/
 /*****************************/
 .section-featured {
-  padding: 4.8rem 0;
+  padding: 4.8rem 0 3.2rem 0;
 }
 
 .heading-featured-in {
@@ -141,6 +141,8 @@
 
 .logos img {
   height: 3.2rem;
+  filter: brightness(0);
+  opacity: 50%;
 }
 
 /*****************************/
