@@ -6,7 +6,12 @@
       -LINE HEIGHT: 
       Defaut 1
       small: 1.05
+      medium: 1.2
       paragraph default: 1.6
+
+      Letter Spacing
+      -0.5px
+      0.75px
 
       FONT-WEIGHT: 
       -Default: 400
@@ -106,6 +111,9 @@ body {
   font-size: 1.6rem;
   font-weight: 500;
   color: #cf711f;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  margin-bottom: 1.6rem;
 }
 
 .btn:link,
