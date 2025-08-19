@@ -211,3 +211,7 @@
 .section-meals {
   padding: 4.8rem 0 3.2rem 0;
 }
+
+.meal-img {
+  width: 100%;
+}
