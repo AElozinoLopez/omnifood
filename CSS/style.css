@@ -234,13 +234,25 @@
   display: inline-block;
   font-size: 1.2rem;
   text-transform: uppercase;
-  background-color: #51cf66;
+
   padding: 0.4rem 0.8rem;
   border-radius: 100px;
   font-weight: 600;
 }
 
-.meal-title {
+.tag--vegetarian {
+  background-color: #51cf66;
+}
+
+.tag--vegan {
+  background-color: #94d82d;
+}
+
+.tag--paleo {
+  background-color: #ffd43b;
+}
+
+.tag-- .meal-title {
   font-size: 2.4rem;
   color: #333;
   font-weight: 600;
