@@ -336,9 +336,12 @@
   background-color: #fdf2e9;
 }
 
+/* This testimonial-container section seem to be breaking my gallery section
+by adding extra gap beetween each row. Maybe it's the browser! Investigate */
 .testimonials-container {
   padding: 9.6rem;
 }
+/**********************************************************/
 
 .testimonials {
   display: grid;
@@ -366,9 +369,11 @@
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.2rem;
+  gap: 1.6rem;
+  padding: 1.6rem;
 }
 
 .gallery-item img {
+  display: block;
   width: 100%;
 }
