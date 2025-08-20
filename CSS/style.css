@@ -386,16 +386,19 @@
 
 .pricing-plan {
   border-radius: 11px;
-  padding: 6.4rem;
+
   width: 75%;
 }
 
 .pricing-plan-starter {
   justify-self: end;
+  border: 2px solid #fdf2e9;
+  padding: 6.2rem;
 }
 
 .pricing-plan-complete {
   background-color: #fdf2e9;
+  padding: 6.4rem;
 }
 
 .plan-header {
