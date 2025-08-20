@@ -27,7 +27,10 @@
     #fdf2e9
     #fae5d3,
     -Accent: #cf711f #94d82d #ffd43b
-    -Grey: #555, #333, #ddd #777
+    -Grey: #555, 
+    #333, 
+    #ddd 
+    #6f6f6f lightest gray allowed on #fdf2e9
 
     ----IMAGE SOURCES
     -unspash for images
