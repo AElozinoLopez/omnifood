@@ -503,8 +503,12 @@
 
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
   overflow: hidden;
-  /* Temp */
-  height: 50rem;
+
+  /* Temp: to give visual clue in styling the 
+  form but to be deleted at completion to allow 
+  the content determint=e the width*/
+
+  /* height: 50rem; */
 }
 
 .cta-text-box {
