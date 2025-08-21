@@ -148,6 +148,7 @@ body {
   margin-bottom: 1.6rem;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   font-size: 2rem;
@@ -157,6 +158,11 @@ body {
   border-radius: 9px;
   padding: 1.6rem 3.2rem;
 
+  /* Only applies to .btn */
+  border: none;
+  cursor: pointer;
+
+  /* For animation */
   transition: all 0.3s;
 }
 
