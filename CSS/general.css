@@ -68,10 +68,21 @@ body {
 /*****************************/
 /* GENERAL REUSEABLE COMPONNETS */
 /*****************************/
+
+/* To center items */
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
 .grid {
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
+
+  margin-bottom: 9.6rem;
 }
 
 .grid--2-cols {
@@ -88,14 +99,6 @@ body {
 
 .grid--center-v {
   align-items: center;
-}
-
-/* To center items */
-.container {
-  /* 1140px */
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 0 3.2rem;
 }
 
 .heading-primary,
