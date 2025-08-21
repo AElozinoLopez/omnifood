@@ -519,6 +519,7 @@
 .cta-text {
   font-size: 1.8rem;
   line-height: 1.8;
+  margin-bottom: 4.2rem;
 }
 
 .cta-img-box {
@@ -530,4 +531,25 @@
     url(../img/eating.jpg);
   background-size: cover;
   background-position: center;
+}
+
+/* Form styling */
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+.cta-form input {
+}
+.cta-form select {
+}
+.cta-form button {
 }
