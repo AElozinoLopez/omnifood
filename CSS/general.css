@@ -238,6 +238,18 @@ body {
   color: #e67e22;
 }
 
+/* To remove the default focus on the form input field */
+*:focus {
+  outline: none;
+
+  /* 1 method to add your own focus */
+  /* outline: 3px dotted #e67e22;
+  outline-offset: 8px; */
+
+  /* 2nd method to add focus. Prefered */
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
+
 /* HELPER/SETTINGS CLASS */
 .margin-right-sm {
   margin-right: 1.6rem !important;
