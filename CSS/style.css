@@ -598,7 +598,7 @@
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 1.4rem;
+  gap: 2.4rem;
 }
 
 .footer-link:link,
