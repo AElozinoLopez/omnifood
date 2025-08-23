@@ -2,6 +2,8 @@
 /* BELOW 1344px (Smaller Desktops) */
 /*****************************/
 
+/* Calc 1350 / 16px = 84em */
+
 @media (max-width: 84em) {
   .hero {
     max-width: 120rem;
@@ -13,5 +15,19 @@
 
   .gallery {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/*****************************/
+/* BELOW 1200px (Landscape Tablet) */
+/*****************************/
+
+/* Calc 1200 / 16px = 75em */
+/* Resizing the entire page layout */
+
+@media (max-width: 75em) {
+  html {
+    /* 9px /16px */
+    font-size: 56.25%;
   }
 }
