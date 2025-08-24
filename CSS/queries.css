@@ -84,6 +84,10 @@
   .hero {
     grid-template-columns: 1fr;
   }
+
+  .hero-img {
+    width: 60%;
+  }
 }
 
 /* Spacing system(px): 
