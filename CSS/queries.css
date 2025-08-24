@@ -80,6 +80,10 @@
     /* 8px / 16px = 50% (1rem = 8px) */
     font-size: 50%;
   }
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Spacing system(px): 
