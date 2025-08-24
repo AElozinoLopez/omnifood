@@ -88,6 +88,11 @@
   .hero-img {
     width: 60%;
   }
+
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
 }
 
 /* Spacing system(px): 
