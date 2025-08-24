@@ -83,6 +83,8 @@
 
   .hero {
     grid-template-columns: 1fr;
+    padding: 0 0.8rem;
+    gap: 6.8rem;
   }
 
   .hero-img {
@@ -96,6 +98,7 @@
 
   .delivered-meals {
     justify-content: center;
+    margin-top: 3.2rem;
   }
 }
 
