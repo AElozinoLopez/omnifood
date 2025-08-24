@@ -43,6 +43,10 @@
   .heading-tertiary {
     font-size: 2.4rem;
   }
+
+  .header {
+    padding: 0 3.2rem;
+  }
 }
 
 /* Spacing system(px): 
