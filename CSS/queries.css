@@ -2,6 +2,8 @@
 /* BELOW 1344px (Smaller Desktops) */
 /*****************************/
 
+/* Responsive To Desktops */
+
 /* Calc 1350 / 16px = 84em */
 
 @media (max-width: 84em) {
@@ -22,12 +24,14 @@
 /* BELOW 1200px (Landscape Tablet) */
 /*****************************/
 
+/* Responsive To Landscape Tablets */
+
 /* Calc 1200 / 16px = 75em */
-/* Resizing the entire page layout */
+/* Resizing the entire page layout with the html attribute */
 
 @media (max-width: 75em) {
   html {
-    /* 9px /16px */
+    /* 9px / 16px = 56.25% (1rem = 9px) */
     font-size: 56.25%;
   }
 
@@ -58,6 +62,23 @@
 
   .testimonials-container {
     padding: 9.6rem 3.2rem;
+  }
+}
+
+/*****************************/
+/* BELOW 955px (Tablet) */
+/*****************************/
+
+/* Calc 955 / 16px = 60em */
+
+/* Responsive To Portrait Tablets */
+
+/* For breakpoints that happen at 960px */
+
+@media (max-width: 60em) {
+  html {
+    /* 8px / 16px = 50% (1rem = 8px) */
+    font-size: 50%;
   }
 }
 
