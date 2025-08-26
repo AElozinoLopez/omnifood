@@ -6,6 +6,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #fae5d3;
+  position: relative;
 
   /* The height is needed to make the header sticky */
   height: 9.6rem;
