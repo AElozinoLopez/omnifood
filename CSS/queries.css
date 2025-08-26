@@ -167,6 +167,12 @@
 
   .nav-open .main-nav {
     opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
   }
 
   .main-nav-list {
