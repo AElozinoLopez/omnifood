@@ -192,6 +192,25 @@
   }
 }
 
+/*****************************/
+/* BELOW 848px (Smaller Tablets) */
+/*****************************/
+
+/* Calc 850 / 16px = 53em */
+
+/* Responsive To Smaller Tablets */
+
+/* For breakpoints that happen at 960px */
+
+/* One great mission here is to transform 4 and 3 columns to 2 columns */
+
+@media (max-width: 53em) {
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 /* Spacing system(px): 
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
