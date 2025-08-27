@@ -252,6 +252,10 @@
 /* Here all the grid is placed in one column */
 
 @media (max-width: 38em) {
+  .grid {
+    row-gap: 4.8rem;
+  }
+
   .grid--2-cols,
   .grid--3-cols,
   .grid--4-cols {
