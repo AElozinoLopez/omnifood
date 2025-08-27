@@ -239,6 +239,26 @@
   }
 }
 
+/*****************************/
+/* BELOW 608px (Phones) */
+/*****************************/
+
+/* Calc 600 / 16px = 38em */
+
+/* Responsive To Phones */
+
+/* For breakpoints that happen at 608px */
+
+/* Here all the grid is placed in one column */
+
+@media (max-width: 38em) {
+  .grid--2-cols,
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Spacing system(px): 
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
