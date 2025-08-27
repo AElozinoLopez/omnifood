@@ -229,12 +229,12 @@
 
   .logo-col,
   .address-col {
-    column-span: 3;
+    grid-column: span 3;
   }
 
   .nav-col {
     grid-row: 1;
-    column-span: 2;
+    grid-column: span 2;
   }
 }
 
