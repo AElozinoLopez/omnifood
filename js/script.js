@@ -1,21 +1,32 @@
 console.log("Hello world!");
-
 const myName = "Developed by Elozino Lopez";
 
 const h1 = document.querySelector(".heading-primary");
 console.log(myName);
 console.log(h1);
 
-h1.addEventListener("click", function () {
-  h1.textContent = myName;
-  h1.style.backgroundColor = "orangered";
-  h1.style.padding = "3rem";
-});
+// h1.addEventListener("click", function () {
+//   h1.textContent = myName;
+//   h1.style.backgroundColor = "orangered";
+//   h1.style.padding = "3rem";
+// });
 
+////////////////////////////////////////////////////
+// Automate the current year in footer
 const yearEl = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
 console.log(currentYear);
 yearEl.textContent = currentYear;
+
+//Making the navigation work
+const btnNavEl = document.querySelector(".btn-mobile-nav");
+const headerEl = document.querySelector(".header");
+
+btnNavEl.addEventListener("click", function () {
+  headerEl.classList.toggle("nav-open");
+});
+///////////////////////////////////////////////////////
+
 //////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
