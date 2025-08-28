@@ -75,9 +75,18 @@
 }
 
 html {
+  /* Font-size = 10px */
+
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* The represents the percentage of user's 
+  browser font-size setting */
+
   font-size: 62.5%;
   overflow-x: hidden;
-  scroll-behavior: smooth;
+
+  /* This smooth scrolling functionality can be applied using js for
+  cross-broswer compatibility */
+  /* scroll-behavior: smooth; */
 }
 
 body {
