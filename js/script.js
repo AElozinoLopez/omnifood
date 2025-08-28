@@ -12,6 +12,10 @@ h1.addEventListener("click", function () {
   h1.style.padding = "3rem";
 });
 
+const yearEl = document.querySelector(".year");
+const currentYear = new Date().getFullYear();
+console.log(currentYear);
+yearEl.textContent = currentYear;
 //////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
