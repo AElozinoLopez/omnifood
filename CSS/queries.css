@@ -261,6 +261,10 @@
   .grid--4-cols {
     grid-template-columns: 1fr;
   }
+
+  .hero {
+    padding: 0 3.2rem;
+  }
 }
 
 /* Spacing system(px): 

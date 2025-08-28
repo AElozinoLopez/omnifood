@@ -175,10 +175,6 @@ body {
 .btn,
 .btn:link,
 .btn:visited {
-  /* Applying flex to corect the botton breaking when the viewport is reduced*/
-  display: flex;
-  justify-content: center;
-
   font-size: 2rem;
   font-weight: 600;
   text-decoration: none;
