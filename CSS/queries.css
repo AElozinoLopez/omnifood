@@ -313,6 +313,10 @@
     height: 32rem;
     grid-row: 1;
   }
+
+  .cta-text-box {
+    padding: 3.2rem;
+  }
 }
 
 /* Spacing system(px): 
