@@ -42,6 +42,12 @@ allLink.forEach(function (link) {
         top: 0,
         behavior: "smooth"
       })
+    
+    // Scroll form nav to sections
+    if (href !== "#" && href.startsWith("#")) {
+      const sectionEl = document.querySelector(href);
+      sectionEl.scrollIntoView({behavior: "smooth"});
+    }
   });
 });
 //////////////////////////////////////////////////////////
