@@ -48,8 +48,21 @@ allLink.forEach(function (link) {
       const sectionEl = document.querySelector(href);
       sectionEl.scrollIntoView({behavior: "smooth"});
     }
+
+    // Closing Mobile nav
+    if (link.classList.contains ("main-nav-link"))
+      headerEl.classList.toggle("nav-open")
   });
 });
+
+
+
+
+
+
+
+
+
 //////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
