@@ -32,7 +32,7 @@ btnNavEl.addEventListener("click", function () {
 const allLiks = document.querySelectorAll("a:link");
 
 allLink.forEach(function (link) {
-  link.addEventListener("click", function (e) {
+  link.addEventListener("click", function(e) {
     e.preventDefault();
     const href = link.getAttribute("href");
 
@@ -40,7 +40,7 @@ allLink.forEach(function (link) {
     if (href === #)
       window.scrollTo ({
         top: 0,
-        behavior: "smooth"
+        behavior: "smooth",
       })
     
     // Scroll form nav to sections
@@ -51,7 +51,7 @@ allLink.forEach(function (link) {
 
     // Closing Mobile nav
     if (link.classList.contains ("main-nav-link"))
-      headerEl.classList.toggle("nav-open");
+      headerEl.classList.toggle("nav-open")
   });
 });
 
