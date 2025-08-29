@@ -38,22 +38,36 @@ allLink.forEach(function (link) {
 
     //Scrolling to Top
     if (href === #)
-      window.scrollTo ({
+      window.scrollTo({
         top: 0,
         behavior: "smooth",
       })
     
-    // Scroll form nav to sections
+    // Scroll to other links
     if (href !== "#" && href.startsWith("#")) {
       const sectionEl = document.querySelector(href);
-      sectionEl.scrollIntoView({behavior: "smooth"});
+      sectionEl.scrollIntoView({ behavior: "smooth" });
     }
 
     // Closing Mobile nav
-    if (link.classList.contains ("main-nav-link"))
-      headerEl.classList.toggle("nav-open")
+    if (link.classList.contains("main-nav-link"))
+      headerEl.classList.toggle("nav-open");
   });
 });
+
+
+//////////////////////////////////////////////////////////
+// Sticky navigation
+const sectionHeroEl = document.querySelector(".section-hero");
+
+const obs = new IntersectionObserver (function(entries){
+const ent = entries[0];
+}, 
+{
+  root: null,
+  threshold: 0
+});
+obs.observe(sectionHeroEll);
 
 
 
