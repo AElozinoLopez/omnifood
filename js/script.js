@@ -70,7 +70,7 @@ const obs = new IntersectionObserver(
     threshold: 0,
   }
 );
-obs.observe(sectionHeroEll);
+obs.observe(sectionHeroEl);
 
 //////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
