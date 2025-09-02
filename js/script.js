@@ -64,7 +64,6 @@ const obs = new IntersectionObserver(
     const ent = entries[0];
 
     if (ent.isIntersecting === false) {
-      console.log(ent);
       document.body.classList.add("sticky");
     }
   },
